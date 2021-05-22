@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: 'Merriweather', serif; 
+}
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 16px;
+}
+
+
+legend {
+   background-color: #616161 ;
+   color: white;
+   width: 94%;
+   text-align: center;
+   font-weight: bold;
+   padding: 3px;
+
+}
+fieldset {
+   margin: 1em auto;
+   background-color: #F5F5F5;
+
+}
+
+
+div#searchBox, div#settingsBox, div#paintingBox {
+   margin: 0.25em auto;
+   background-color: #E0E0E0;
+   border: 1pt solid #616161;
+
+}
+div#searchBox { 
+   margin-top: 1em;
+   padding: 7px;
+   width: 95%;
+}
+
+div#settingsBox{
+  padding: 7px;
+  width: 95%;
+}
+
+div#paintingBox {
+   width: 96%;
+   margin-top: 0.8em;
+}
+
+div#artistBox { 
+  background-color: #EEEEEE;
+  border: 1pt solid #616161;
+    
+}
+
+
+table thead {
+  
+   background-color: #D3D3D3;
+   text-align: left;
+    
+}
+
+
+caption {
+   background-color: #BDBDBD;
+   font-weight: bold;
+   margin-top: 8px;
+}
+
+
+table {
+  width: 75%;
+  padding: 0.5rem; 
+  border-collapse: collapse;
+  text-align: left;
+  margin-left: 14px;
+  
+}
+
+tbody tr td{
+  border-top: 1pt solid #616161;
+  border-spacing: 0;
+  padding: 7px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+img {
+  border: 1pt solid black;
+  padding: 1px;
+}
+
+img[src*="archive"] {
+  border: none;
+}
+
+img[src*="edit"] {
+  border: none;
+}
+
+img[src*="delete"] {
+  border: none;
+}
+
+img[src*="collection"] {
+  border: none;
+}
